@@ -228,3 +228,8 @@ in util/env_posix.cc.
 
 * **include/leveldb/table.h, include/leveldb/table_builder.h**: Lower-level modules that most
 clients probably won't use directly.
+
+ÔÄ¶Á£º
+
+https://zhuanlan.zhihu.com/p/34657032
+https://www.zhihu.com/people/programjerry/posts?page=3
