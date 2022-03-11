@@ -9,7 +9,12 @@
 using namespace std;
 using namespace leveldb;
 
+//#define LEVELDB_EXPORTS
+
+#define STORAGE_LEVELDB_INCLUDE_DB_H_1
+
 int main() {
+
   DB* db;
   Options options;
   options.create_if_missing = true;
@@ -23,7 +28,7 @@ int main() {
   assert(status.ok());
 
   cout << "Get Value Is: " << res << endl;
-  cout << "hello levelDB";
+  cout << "hello levelDB :" <<  endl;
 
   delete db;
 

@@ -3,6 +3,9 @@
 # found in the LICENSE file. See the AUTHORS file for names of contributors.
 
 cmake_minimum_required(VERSION 3.9)
+
+#set(CMAKE_TRY_COMPILE_TARGET_TYPE "STATIC_LIBRARY")
+
 # Keep the version below in sync with the one in db.h
 project(leveldb VERSION 1.23.0 LANGUAGES C CXX)
 
